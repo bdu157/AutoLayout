@@ -12,6 +12,8 @@
 		0BD8B156227A85CD00DC5596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BD8B154227A85CD00DC5596 /* Main.storyboard */; };
 		0BD8B158227A85D000DC5596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD8B157227A85D000DC5596 /* Assets.xcassets */; };
 		0BD8B15B227A85D000DC5596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BD8B159227A85D000DC5596 /* LaunchScreen.storyboard */; };
+		0BD8B164227A876100DC5596 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8B162227A876000DC5596 /* CustomTextField.swift */; };
+		0BD8B165227A876100DC5596 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8B163227A876000DC5596 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0BD8B157227A85D000DC5596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BD8B15A227A85D000DC5596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BD8B15C227A85D000DC5596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BD8B162227A876000DC5596 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = ../../../Downloads/Archive/CustomTextField.swift; sourceTree = "<group>"; };
+		0BD8B163227A876000DC5596 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = ../../../Downloads/Archive/BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				0BD8B150227A85CD00DC5596 /* AppDelegate.swift */,
 				0BD8B152227A85CD00DC5596 /* ViewController.swift */,
+				0BD8B163227A876000DC5596 /* BackgroundView.swift */,
+				0BD8B162227A876000DC5596 /* CustomTextField.swift */,
 				0BD8B154227A85CD00DC5596 /* Main.storyboard */,
 				0BD8B157227A85D000DC5596 /* Assets.xcassets */,
 				0BD8B159227A85D000DC5596 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				0BD8B153227A85CD00DC5596 /* ViewController.swift in Sources */,
 				0BD8B151227A85CD00DC5596 /* AppDelegate.swift in Sources */,
+				0BD8B165227A876100DC5596 /* BackgroundView.swift in Sources */,
+				0BD8B164227A876100DC5596 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
